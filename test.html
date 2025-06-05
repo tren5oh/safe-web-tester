@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Test Page with Broken Links</h1>
+    
+    <h2>Links</h2>
+    <ul>
+        <li><a href="https://httpbin.org">Working Link to httpbin</a></li>
+        <li><a href="https://this-domain-definitely-does-not-exist.com">Broken Domain</a></li>
+        <li><a href="https://httpbin.org/status/404">404 Error Link</a></li>
+        <li><a href="https://httpbin.org/status/500">500 Error Link</a></li>
+    </ul>
+
+    <h2>Buttons</h2>
+    <div class="button-container">
+        <button>Working Button</button>
+        <button disabled aria-label="Submit form">Submit Button (Disabled)</button>
+    </div>
+
+    <form id="test-form">
+        <button disabled>Form Submit</button>
+        <input type="submit" disabled value="Alternative Submit">
+    </form>
+
+    <nav class="navigation-menu">
+        <button disabled>Menu Toggle</button>
+    </nav>
+
+    <div class="footer-actions">
+        <input type="button" disabled value="Accept Terms">
+    </div>
+</body>
+</html> 

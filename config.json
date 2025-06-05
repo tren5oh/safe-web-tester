@@ -1,0 +1,9 @@
+{
+    "allowedDomains": [
+        "example.com", 
+        "httpbin.org", 
+        "the-internet.herokuapp.com",
+        "localhost"
+    ],
+    "delayMS": 1000
+}
